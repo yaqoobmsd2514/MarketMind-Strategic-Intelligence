@@ -1,4 +1,4 @@
-# MarketMind - Complete Project
+# MarketMind-Strategic-Intelligence
 
 ## Quick Start (Windows)
 Just double-click: START-PROJECT.bat
