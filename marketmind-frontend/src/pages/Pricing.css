@@ -1,0 +1,37 @@
+.pricing-page{max-width:1100px;margin:0 auto;padding:60px 24px;animation:fadeIn .3s ease}
+.pricing-hero{text-align:center;margin-bottom:60px}
+.pricing-hero h1{font-size:clamp(28px,4vw,44px);font-weight:900;color:var(--text-primary);margin-bottom:12px}
+.pricing-hero p{font-size:16px;color:var(--text-secondary)}
+.section-label{font-size:11px;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:12px}
+.plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:80px}
+.plan-card{background:var(--bg-card);border:1px solid var(--border);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:20px;position:relative;transition:.2s}
+.plan-card.popular{border-color:rgba(99,102,241,.4);box-shadow:0 0 40px rgba(99,102,241,.12)}
+.popular-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,var(--primary),#8b5cf6);color:#fff;font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;white-space:nowrap}
+.plan-header{}
+.plan-name{font-size:20px;font-weight:800;color:var(--text-primary);margin-bottom:10px}
+.plan-price-row{display:flex;align-items:baseline;gap:4px;margin-bottom:8px}
+.plan-price{font-size:32px;font-weight:900}
+.plan-period{font-size:13px;color:var(--text-muted)}
+.plan-desc{font-size:13px;color:var(--text-secondary);line-height:1.5}
+.plan-cta{display:block;text-align:center;padding:13px;border-radius:12px;font-size:14px;font-weight:700;border:1px solid transparent;transition:all .2s;background:rgba(99,102,241,.1);color:var(--primary-light)}
+.plan-card.popular .plan-cta{color:#fff!important}
+.plan-cta:hover{transform:translateY(-1px);opacity:.9}
+.plan-features{display:flex;flex-direction:column;gap:8px}
+.pf-item{display:flex;align-items:flex-start;gap:10px;font-size:13px}
+.pf-item span{font-size:12px;flex-shrink:0;margin-top:2px}
+.pf-yes{color:var(--text-secondary)}
+.pf-yes span{color:#10b981;font-weight:700}
+.pf-no{color:var(--text-muted);opacity:.5}
+.pf-no span{color:var(--text-muted)}
+.pricing-faq{margin-bottom:60px}
+.pricing-faq h2{font-size:24px;font-weight:800;color:var(--text-primary);margin-bottom:24px;text-align:center}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.faq-item{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:20px}
+.faq-item h3{font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:8px}
+.faq-item p{font-size:13px;color:var(--text-secondary);line-height:1.6}
+.pricing-bottom-cta{text-align:center;padding:48px 24px;background:linear-gradient(135deg,rgba(99,102,241,.1),rgba(139,92,246,.08));border:1px solid rgba(99,102,241,.2);border-radius:20px;margin-bottom:40px}
+.pricing-bottom-cta h2{font-size:26px;font-weight:800;color:var(--text-primary);margin-bottom:8px}
+.pricing-bottom-cta p{font-size:15px;color:var(--text-secondary);margin-bottom:24px}
+.hero-primary-btn{display:inline-block;padding:14px 32px;background:linear-gradient(135deg,var(--primary),#8b5cf6);color:#fff;border-radius:12px;font-size:15px;font-weight:700;box-shadow:0 6px 24px rgba(99,102,241,.4);transition:all .2s}
+.hero-primary-btn:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(99,102,241,.55)}
+@media(max-width:768px){.plans-grid{grid-template-columns:1fr}.faq-grid{grid-template-columns:1fr}}
